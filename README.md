@@ -10,6 +10,6 @@ To run and install dependencies, just run following command and server will star
 npm start
 ```
 ## Usage
-Basic ready to user node js project with express framework. Fork it and use it :)
+Basic ready to use node js project with express framework. Fork it and use it :)
 ## License
 **ISC**
