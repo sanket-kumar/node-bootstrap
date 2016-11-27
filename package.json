@@ -1,0 +1,43 @@
+{
+  "name": "node-boostrap",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npm install; node app.js",
+    "create_dirs": "mkdir logs"
+  },
+  "dependencies": {
+    "async": "1.2.1",
+    "bluebird": "3.4.6",
+    "body-parser": "1.12.0",
+    "config": "1.10.0",
+    "express": "4.9.8",
+    "jade": "1.6.0",
+    "md5": "1.0.0",
+    "moment": "2.9.0",
+    "mongoose": "4.7.0",
+    "mongoose-auto-increment": "5.0.1",
+    "morgan": "1.3.0",
+    "mysql": "2.5.4",
+    "node-env-file": "0.1.8",
+    "query-string": "4.2.3",
+    "request": "2.51.0",
+    "useragent": "2.1.7",
+    "validator": "4.1.0",
+    "winston": "2.1.1",
+    "winston-daily-rotate-file": "1.0.1"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanket-kumar/node-bootstrap.git"
+  },
+  "author": "Sanket Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanket-kumar/node-bootstrap/issues"
+  },
+  "homepage": "https://github.com/sanket-kumar/node-bootstrap#readme",
+  "description": "Ready to use node template with Mysql, Mongo and logging functionalities"
+}
